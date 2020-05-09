@@ -10,7 +10,7 @@ class App extends Component {
   state = {
     tasks: [{
         id: 0,
-        text: 'zagrać wreszcie w Wiedźmina 3',
+        text: 'posprzatac garaż',
         date: '2018-02-15',
         important: true,
         active: true,
@@ -18,7 +18,7 @@ class App extends Component {
       },
       {
         id: 1,
-        text: "zrobić dobry uczynek",
+        text: "zrobić ogródek",
         date: '2020-11-12',
         important: false,
         active: true,
@@ -34,7 +34,7 @@ class App extends Component {
       },
       {
         id: 3,
-        text: "schudnąć 30 kilogramów",
+        text: "schudnąć 10 kilogramów",
         date: '2019-05-20',
         important: true,
         active: true,
@@ -42,7 +42,7 @@ class App extends Component {
       },
       {
         id: 4,
-        text: "sprzedać butelki po piwie (20 skrzynek)",
+        text: "posprzątać samochód",
         date: '2020-11-12',
         important: false,
         active: true,
